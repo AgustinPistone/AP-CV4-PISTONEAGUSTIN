@@ -1,0 +1,302 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 20px
+	color:#333;
+	min-height: 100%
+	background:#efefef;
+}
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.titulo-seccion {
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: 800;
+	text-transform: uppercase;
+
+}
+
+.nombre{ 
+  	font-size:28px;
+  	line-height:25px;
+  	text-transform:uppercase;
+  	margin-top:0;
+  	margin-bottom:0;
+}
+
+.profesion{
+ 	color:#777;
+ 	font-size:22px;
+ 	font-weight:300;
+ 	line-height:30px;
+ 	text-transform:uppercase;
+ 	margin-top:0;
+ }
+p {
+ 	font-size:12px;
+ 	color:#777;
+ 	line-height:22px;
+ 	font-weight:300;
+}
+.titulo{
+	color:#333;
+	font-size:14px;
+	font-weight:700;
+	text-align:center;
+	display:inline-block;
+	width:35%;
+	padding-top:8px ;
+	padding-bottom:8px;
+	background: white;
+	border:gray;
+}
+.separador{
+	background:white;
+	width:100px;
+	left:30px;
+	top:62px;
+	height:60px;
+	padding-right:10px;
+	padding-left: 10px;
+}
+.contenido{
+	color: #666;
+	font-size: 14px;
+	text-align: center;	
+	width:63%;
+	padding-top:8px ;
+	padding-bottom:8px;
+	display: inline-block;
+}
+.contenedor{
+	max-width:940px;
+	margin-right:auto; 
+	margin-left:auto;
+	margin-top:40px;
+
+}
+ul{
+	padding-left:0 ;
+	list-style:none;
+	margin: 0px;
+}
+.datos-lista li{
+	border-bottom: #CDCFD1;
+	background:#CDCFD1;
+}
+.datos-lista{
+	width:50%;
+	float:left;
+	border: 1px solid #041014;
+	margin-bottom: 20px;
+	text-align:center;
+}
+
+.secciones{
+	border-bottom: solid #efefef;
+	margin:40px 10px 2px 40px;
+	position: relative;
+
+}
+.sobremi, .estudios, .experiencialaboral, .hobbies{
+	padding: 30px 40px;
+
+}
+a{
+	text-decoration:none;
+
+}
+.texto{
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 44px;
+	text-align: right;
+	text-transform: uppercase;
+	color: #85878b;
+	margin:0px 20px 0px 0px;
+
+}
+.mis-redes-sociales{
+	display:block;
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-left: 26%;
+	background:#ffffff;
+	text-align:center;
+}
+.red{
+	margin-top:5px;
+	margin-left: 4px;
+	margin:4px;
+	float:left;
+	display:inline-block;
+	float:center;
+}
+.item{
+	border-bottom: 1px solid #26292e;
+	padding: 0px;
+	height: 45px;
+	position:relative;
+}
+.hipervinculo {
+	color: black;
+	background-color:#03082B;
+	display: inline-block;
+	width:100%;
+}
+.hipervinculo .texto {
+	color:#898A8F;
+
+}
+.hipervinculo .texto:hover{
+	color:white;
+}
+.hipervinculo:hover{
+	color: white;
+	background-color: #240105;
+}
+html{
+	height: 100%;
+
+}
+
+
+.c-derecha{
+	background: white;
+	width:72%;
+	float:right;
+
+}
+.c-izquierda{
+	width:26%;
+	float:left;
+}
+
+.futbol{
+	background-image: url('../img/futbol.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	min-height: 140px;
+	background-position:0px 0px;
+	background-size: cover;
+}
+.leer{
+	background-image: url('../img/leer.jpg');
+	width:100%;
+	min-height:140px;
+	background-position: 0px 0px;
+	background-size: cover;
+}
+.peliculas{
+	background-image: url('../img/cine.jpg');
+	width:100%;
+	min-height: 140px;
+	background-position: 0px 0px;
+	background-size: cover;	
+}
+
+.item-hobbie {
+    width: 31%;
+    margin-right: 1%;
+    margin-left: 1%;
+    float: left;
+}
+
+.texto-imagen{
+	font-style: italic;
+	color:#262829;
+}
+
+.w-clearfix:before, 
+.w-clearfix:after {
+	content: " ";
+	display: table;
+}
+.w-clearfix:after {
+	clear: both;
+}
+.imagen-estudios{
+	background-image: url(../img/estudios.png); 
+	position: absolute;
+	top:10px;
+	left:10px;
+	width: 20px;
+	height:20px;
+	background-size: cover;
+
+}
+.imagen-sobre-mi{
+	background-image: url(../img/sobre-mi.png); 
+	position: absolute;
+	top:10px;
+	left:10px;
+	width: 20px;
+	height:20px;
+	background-size: cover;
+
+}
+.imagen-experiencia-laboral{
+	background-image: url(../img/experiencia-laboral.png); 
+	position: absolute;
+	top:10px;
+	left:10px;
+	width: 20px;
+	height:20px;
+	background-size: cover;
+}
+.imagen-hobbies{
+	background-image: url(../img/hobbie.png); 
+	position: absolute;
+	top:10px;
+	left:10px;
+	width: 20px;
+	height:20px;
+	background-size: cover;
+
+}
+.hipervinculo:hover .imagen-hobbies {
+	background-image: url(../img/hobbie-hover.png);
+}
+.hipervinculo:hover .imagen-estudios {
+	background-image: url(../img/estudios-hover.png);
+}
+.hipervinculo:hover .imagen-experiencia-laboral {
+	background-image: url(../img/experiencia-laboral-hover.png);
+}
+.hipervinculo:hover .imagen-sobre-mi {
+	background-image: url(../img/sobre-mi-hover.png);
+}
+.mi-imagen{
+	width:100%;
+
+}
+
+.hipervinculo:hover .imagen-gmail {
+	background-image:url(../img/gmail.png) ;
+}
+
+.imagen-gmail{
+	background-image:  url(../img/gmail.png); 
+    width: 30px;
+    height: 30px;
+    margin-right: 40px;
+    margin-left: 0px;
+    float: left;
+    background-size: cover;
+    position: absolute;
+
+}
+
+.hipervinculo:hover .imagen-gmail {
+	background-image: url(../img/gmail-hover.png);
+}
+
+img{
+	width: 100%;
+}
+
